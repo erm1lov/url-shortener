@@ -1,5 +1,5 @@
 {
-    "name": "waavi/url-shortener",
+    "name": "ermilov/url-shortener",
     "description": "Url Shortener for Laravel 5 with support for Google and Bitly drivers.",
     "keywords": [
         "waavi",
@@ -35,6 +35,12 @@
             "Waavi\\UrlShortener\\Test\\": "tests"
         }
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/erm1lov/url-shortener"
+        }
+    ],
     "minimum-stability": "dev",
     "scripts": {
         "test": "vendor/bin/phpunit"
